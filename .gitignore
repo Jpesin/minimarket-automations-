@@ -205,3 +205,25 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# --- REGLAS MINIMARKET (Personalizado) ---
+
+# Ignorar documentos tributarios reales
+*.pdf
+*.xml
+*.csv
+*.xlsx
+*.xls
+
+# Ignorar carpetas de datos (si las creamos)
+data/
+facturas_recibidas/
+reportes_ventas/
+
+# Ignorar bases de datos locales
+*.sqlite3
+*.db
+
+# Ignorar claves de acceso
+config.ini
+secrets.json
+.env
